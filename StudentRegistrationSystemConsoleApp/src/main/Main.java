@@ -20,17 +20,7 @@ public class Main {
             while (true) {
                 MenuUtil.processMenu(menu);
                 menu = InputUtil.requireNumber("What do you want to do else?");
-//            if (menu == 1) {
-//                StudentUtil.registerStudent();
-//            } else if (menu == 2) {
-//                StudentUtil.printAllRegisteredStudents();
-//            } else if (menu == 3) {
-//                StudentUtil.findStudentsAndPrint();
-//            } else if (menu == 4) {
-////                StudentUtil.updateStudentWithNewObject();
-////                StudentUtil.updateStudentWithSameObject();
-//                StudentUtil.updateStudentWithSplit();
-//            }
+//   
             }
 
         }

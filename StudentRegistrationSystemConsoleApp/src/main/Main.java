@@ -17,8 +17,9 @@ public class Main {
                     + "\n3. Find student"
                     + "\n4. Update student"
                     + "\n5. Exit");
-
-            MenuUtil.processMenu(menu);
+            while (true) {
+                MenuUtil.processMenu(menu);
+                menu = InputUtil.requireNumber("What do you want to do else?");
 //            if (menu == 1) {
 //                StudentUtil.registerStudent();
 //            } else if (menu == 2) {
@@ -30,7 +31,8 @@ public class Main {
 ////                StudentUtil.updateStudentWithSameObject();
 //                StudentUtil.updateStudentWithSplit();
 //            }
-        }
+            }
 
+        }
     }
 }

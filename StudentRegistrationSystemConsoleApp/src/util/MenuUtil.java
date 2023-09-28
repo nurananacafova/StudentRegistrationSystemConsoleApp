@@ -38,7 +38,7 @@ public class MenuUtil {
     }
 
     public static int requireAge() {
-        return InputUtil.requireNumber("enter name");
+        return InputUtil.requireNumber("enter age");
     }
 
     public static void showSuccessOpMessage() {

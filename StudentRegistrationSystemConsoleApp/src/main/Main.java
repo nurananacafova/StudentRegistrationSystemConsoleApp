@@ -17,20 +17,12 @@ public class Main {
                     + "\n3. Find student"
                     + "\n4. Update student"
                     + "\n5. Exit");
+            while (true) {
+                MenuUtil.processMenu(menu);
+                menu = InputUtil.requireNumber("What do you want to do else?");
+//   
+            }
 
-            MenuUtil.processMenu(menu);
-//            if (menu == 1) {
-//                StudentUtil.registerStudent();
-//            } else if (menu == 2) {
-//                StudentUtil.printAllRegisteredStudents();
-//            } else if (menu == 3) {
-//                StudentUtil.findStudentsAndPrint();
-//            } else if (menu == 4) {
-////                StudentUtil.updateStudentWithNewObject();
-////                StudentUtil.updateStudentWithSameObject();
-//                StudentUtil.updateStudentWithSplit();
-//            }
         }
-
     }
 }
